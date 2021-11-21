@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  scrollbar-color: #e50914 #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #e50914;
+  border-radius: 50px;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
